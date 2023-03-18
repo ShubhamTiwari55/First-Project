@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS file linked to the html file -->
+    <link rel="stylesheet" href="P1style.css">
+    <title>Project 1</title>
+    <!-- cdn link of google fonts to use different font styles in the document -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Poppins&display=swap');
+        body{
+        font-family: 'Fredericka the Great', cursive;
+        font-family: 'Poppins', sans-serif; }
+         </style>
+</head>
+<!-- cdn link of fontawesome for adding icons to the document -->
+<link rel="stylesheet" href="https://kit.fontawesome.com/d158343cee.css" crossorigin="anonymous">
+<script src="https://kit.fontawesome.com/d158343cee.js" crossorigin="anonymous"></script>
+<body>
+    <!-- heading of the webpage with header tag -->
+<header>
+    <nav>
+        <div class="logo">LOGO</div>
+        <ul>
+            <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="">Contact Us</a></li></ul>
+        <div class="search-box"> <input type="text" placeholder="Search">
+        <button>Search</button></div>
+    </nav>
+</header>
+<!-- main content of the webpage which is at the middle of the page -->
+    <main class="main">
+        <!-- Left section of the body -->
+        <section class="leftsection"><h1>Hello, I am a <span class="web">Web Developer</span></h1>
+        <p>I am an aspiring <span class="full">Full Stack Javascript Developer</span>
+        who is currently working as <span class="full">a Freelancer</span> for
+    <span class="full">National and International Client.</span></p>  </section>
+    <!-- right section of the body -->
+    <section class="rightsection">
+    <div><img src="https://raw.githubusercontent.com/pwlive/fullstackwebdevelopment/main/01%20Feb%202023%20%7C%20Project%20With%20Mock%20up%20with%20design%20-1/assets/avtar.png" alt="Avatar" class="imgs"></div>
+            <button class="btn">chat with me</button></section>
+        </main>
+<!-- footer portion of the webpage  -->
+        <footer>
+            <p>Copyright © 2022 LOGO. All rights reserved.</p>
+            <ul><li><i class="fa-brands fa-github"></i></li>
+            <li><i class="fa-brands fa-linkedin-in"></i></li>
+            <li><i class="fa-brands fa-instagram"></i></li></ul>
+        </footer>
+</body>
+</html>
